@@ -16,6 +16,10 @@ data:
       - pod-reader
       userarn: arn:aws:iam::832510228841:user/somu
       username: somu
+    - groups:
+      - pod-reader
+      userarn: arn:aws:iam::832510228841:user/suresh
+      username: suresh
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-09-27T15:48:10Z"
