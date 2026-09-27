@@ -12,7 +12,6 @@ data:
       - pod-reader
       userarn: arn:aws:iam::832510228841:user/raghu
       username: raghu
-      arn:aws:iam::832510228841:user/somu
     - groups:
       - pod-reader
       userarn: arn:aws:iam::832510228841:user/somu
