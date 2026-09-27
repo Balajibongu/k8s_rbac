@@ -8,14 +8,14 @@ data:
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
-    - groups:
-      - pod-reader
-      userarn: arn:aws:iam::832510228841:user/raghu
-      username: raghu
-    - groups:
-      - pod-reader
-      userarn: arn:aws:iam::832510228841:user/somu
-      username: somu
+    # - groups:
+    #   - pod-reader
+    #   userarn: arn:aws:iam::832510228841:user/raghu
+    #   username: raghu
+    # - groups:
+    #   - pod-reader
+    #   userarn: arn:aws:iam::832510228841:user/somu
+    #   username: somu
     - groups:
       - pod-reader
       userarn: arn:aws:iam::832510228841:user/suresh
