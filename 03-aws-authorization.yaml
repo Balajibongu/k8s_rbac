@@ -5,11 +5,12 @@ metadata:
   namespace: kube-system
 data:
   mapRoles: |
-    - rolearn: arn:aws:iam::832510228841:role/eksctl-roboshop-dev-nodegroup-robo-NodeInstanceRole-c6RIKQn8V1kT
+    - rolearn: arn:aws:iam::832510228841:role/eksctl-roboshop-dev-nodegroup-robo-NodeInstanceRole-XGgEImSJjpwg
       groups:
       - system:bootstrappers
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
+
 
   mapUsers: |
     - groups:
